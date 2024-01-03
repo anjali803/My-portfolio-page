@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', function () {
 document.addEventListener('DOMContentLoaded', function () {
   const downloadButton = document.getElementById('download-resume');
   downloadButton.addEventListener('click', function () {
-    const resumePath = 'resume.pdf';
+    const resumePath = 'Resume_Anjali_NV.pdf';
     const link = document.createElement('a');
     link.href = resumePath;
     link.download = 'AnjaliResume.pdf';
